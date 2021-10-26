@@ -64,7 +64,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"model-account-account-module":"model-account-account-module","model-auth-auth-module":"model-auth-auth-module","model-forum-forum-module":"model-forum-forum-module"}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "" + ({"module-account-account-module":"module-account-account-module","module-auth-auth-module":"module-auth-auth-module","module-forum-forum-module":"module-forum-forum-module","module-messaging-messaging-module":"module-messaging-messaging-module"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
